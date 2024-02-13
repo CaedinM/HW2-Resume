@@ -11,12 +11,15 @@
     <title>Caedin Manners</title>
 </head>
 <body>
-    <img src="file:///Users/caedinm/Desktop/Cubstart%20Web/assets/snrheadshot.jpg" class="center">
+    <img src="/Users/caedinm/Library/Mobile Documents/com~apple~Preview/Documents/Headshot.png" class="center">
     <div id=container>
         <h1>Caedin Manners</h1>
         <section id="education">
-            <h2>Education</h2>
-            <p>I am currently a 2nd year student at the Univeristy of California, Berkeley, where I am intending on majoring in Data Science.</p>
+            <h2>About Me</h2>
+            <p>I was born in Hermosa Beach, California. I attended Rolling Hills Prep High School in San Pedro and I am now a 3rd year student at the University of California, Berkeley studying Data Science.
+                 After I graduate, I hope to apply my Data Science skills pioneering innovations in artificial intelligence.</p>
+                <p> Outside of school I am passionate about traveling, investing, andpro sports. In my free time, you might find me at the gym lifting or playing basketball, learning new things on the internet, or watching my favorite sports teams on TV.
+                 </p>
         </section>
         <section id="experience">
             <h2>Experience</h2>
@@ -24,22 +27,11 @@
             <!-- Question 3a. Create 2 to 3 divs with the same class (experience-list-item), and fill them in with your work experiences. -->
             <div class="experience-list-item">
                 <h3>Sports Analytics Group Berkeley (SAGB)</h3>
-                <h4>Data Journalism Team (September 2021 - Current)</h4>
+                <h4>Writer, Data Journalism Branch (September 2021 - present)</h4>
                 <ul>
-                    <li>Conducted data organization and analysis</li>
-                    <li>Wrote articles to be published on the club website</li>
-                    <li>Created data visualizations to accompany articles</li>
-                    <li>Attended weekly meetings</li>
-                </ul>
-            </div>
-            <div class="experience-list-item">
-                <h3>Berkeley Rec Sports</h3>
-                <h4>IM Game Manager (October 2021 - Present)</h4>
-                <ul>
-                    <li>Responsible for incident response and first aid, became CPR certified to do so</li>
-                    <li>Kept track of up to 4 game scores per day</li>
-                    <li>Managed over 50 participants a day, ensured fairness and managed risk among participants</li>
-                    <li>Prepared and put away equipment before and after shifts</li>
+                    <li>Collect data by scraping websites such as ESPN, Sports Reference, Basketball Index and NBA.com</li>
+                    <li>Conduct exploratory data analysis in Python using Pandas, and NumPy to find statistically significant trends in pro sports</li>
+                    <li>Write statistics-focused articles to be published on the club website and create data visualizations to accompany them</li>
                 </ul>
             </div>
             <div class="experience-list-item">
@@ -47,8 +39,22 @@
                 <h4>Business Strategy Intern (June 2021 - July 2021)</h4>
                 <ul>
                     <li>Conducted market research and pinpointed opportunities within the video game industry</li>
-                    <li>Created a game concept, formulated a proposal, identified an audience, created concept art, conducted competitive research, and planned a marketing campaign</li>
-                    <li>Presented an outline of my proposal to business leadership utilizing a slidedeck</li>
+                    <li>Created a concept product, identified an audience, conducted competitive research, and planned a marketing campaign
+                    </li>
+                    <li>Built and presented an 18-slide presentation outlining our product and campaign proposal to leadership
+                    </li>
+                </ul>
+            </div>
+            <div class="experience-list-item">
+                <h3>Berkeley Rec Sports</h3>
+                <h4>IM Game Manager (October 2021 - Present)</h4>
+                <ul>
+                    <li>Respond to incidents and administer first aid if needed (CPR, AED, First Aid Certified)
+                    </li>
+                    <li>Manage 4 games and over 50 participants per day, while ensuring fairness and mitigating the risk of injury or conflict
+                    </li>
+                    <li>Prepare the intramural gym for activities by gathering the correct equipment and organizing it in its correct location
+                    </li>
                 </ul>
             </div>
         </div>
@@ -59,14 +65,55 @@
             <h2>Projects</h2>
             <!-- Question 4a. Create a few project-list-items divs. Fill these in with your favorite projects! -->
             <div class="project-list-item">
-                <h3>NGordnet</h3>
-                <h4>Fall 2022</h4>
-                <p>Built a browser based tool for exploring the history of word usage in English texts using the Google Ngram dataset.</p>
+                <h3>Spam vs Ham Email Filter | Machine Learning Model</h3>
+                <h4>October 2023 - November 2023</h4>
+                <li>Utilized the scikit-learn ML library to build a logistic regression model that could classify incoming emails as spam
+                </li>
+                <li>Conducted feature engineering by removing outliers, OneHotEconding categorical data, and applying log transformations
+                </li>
+                <li>Used an ROC curve to find the optimal classification threshold and achieved a test set accuracy of 91.7%
+                </li>
             </div>
             <div class="project-list-item">
-                <h3>Percolation</h3>
-                <h4>Fall 2022</h4>
-                <p>Wrote a program implementing a weighted quick union data structure to estimate the value of the percolation threshold via Monte Carlo simulation.</p>
+                <h3>Cook County Property Assessors Office | Machine Learning Model
+                </h3>
+                <h4>September 2023 - October 2023</h4>
+                <li>Utilized the scikit-learn ML library in Python to build a linear regression model to assess property values in Cook County, IL</li>
+                <li>Conducted feature engineering by removing outliers, OneHotEconding categorical data, and applying log transformations
+                </li>
+                <li>Assessed model accuracy using a root mean squared error loss function of predicted values to actual sale prices
+                </li>
+            </div>
+            <div class="project-list-item">
+                <h3>NGordnet | Web App</h3>
+                <h4>October 2022 - November 2022</h4>
+                <li>Developed the backend for a browser-based tool for exploring the history of word usage in English texts using Java
+                </li>
+                <li>Utilized data structures including treemaps, hashmaps, and dictionaries to store and retrieve data on the user's command
+                </li>
+                <li>Implemented support for handling queries of multiple words at once and generating visualizations to support data
+                </li>
+            </div>
+            <div class="project-list-item">
+                <h3>Percolation | Java</h3>
+                <h4>September 2022 - October 2022</h4>
+                <li>Wrote a program to estimate the value of the percolation threshold of a system via Monte Carlo simulation
+                </li>
+                <li>Mapped a grid of “open” or “closed tiles and calculated the percolation threshold when tiles were opened at random
+                </li>
+                <li>
+                    Utilized many data structures including a weighted quick union to track whether open tiles are connected
+                </li>
+            </div>
+            <div class="project-list-item">
+                <h3>Using Data to Analyze the Output of 4-Year College Basketball Players in the NBA | Data Journalism</h3>
+                <h4>February 2022 - March 2022</h4>
+                <li>Webscraped data from comprehensive NBA databases such as NBA.com, basketball-reference.com, and bball-index.com
+                </li>
+                <li>Cleaned data by removing outliers such as players who played very few games, and normalizing data to a per-game basis
+                </li>
+                <li>Elegantly summarized key points in an article, articulating advanced statistical findings in an easily digestible language
+                </li>
             </div>
         </div>
             <!-- Question 4b. Create a div that contains all the projects-list-item divs named "project-wrapper". You'll need this later! -->
@@ -74,7 +121,19 @@
         <section id="contact">
             <h2>Contact</h2>
             <!-- Question 5. Add a link to your favorite social media account to the text "here". -->
-            <p>You can contact me <a href = "https://www.instagram.com/caedin.manners/">here!</a></p>
+            <p>You can email me at caedinmanners@berkeley.edu or follow one of my socials below!</p>
+
+            <a href="https://www.instagram.com/caedin.manners/">
+                <img src="/Users/caedinm/Desktop/instagramlogo.png" alt="Instagram" class="image1">
+            </a>
+
+            <a href="https://www.linkedin.com/in/caedin-manners-84662621b/">
+                <img src="/Users/caedinm/Desktop/linkedinlogo.png" alt="LinkedIn" class="image1">
+            </a>
+
+            <a href="https://twitter.com/Caedino30">
+                <img src="/Users/caedinm/Desktop/twitterlogo.png" alt="Twitter" class="image1">
+            </a>
         </section>
     </div>
 </body>
